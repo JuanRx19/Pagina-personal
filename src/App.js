@@ -5,11 +5,11 @@ import SobreMi from './components/SobreMi';
 import Skills from './components/Skills';
 import Navbar from './components/Navbar';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+//import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    /*<Router>
       <div className="App">
         <Routes>
           <Route path="/" element={<Inicio />} />
@@ -17,7 +17,13 @@ function App() {
           <Route path="/Skills" element={<Skills />} />
         </Routes>
       </div>
-    </Router>
+    </Router>*/
+    <div className="App">
+        <Navbar/>
+        <Inicio />
+        <SobreMi />
+        <Skills/>
+      </div>
   );
 }
 

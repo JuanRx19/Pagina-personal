@@ -10,27 +10,27 @@ function Navbar(){
         <div className="contenedor-header">
             <header className="cabecera"> 
                 <div className="logo">
-                    <Link to="/" className="nombre">Juan</Link>
+                    <a href="/" className="nombre">Juan</a>
                 </div>
                 <nav className="navbar">
-                    <ul>
-                        <li>
-                            <Link to="/" className="opcion">INICIO</Link>
+                    <ul className="lista-ul">
+                        <li className="lista-li">
+                            <a href="/" className="opcion">INICIO</a>
                         </li>
                         <li>
-                            <Link to="/SobreMi" className="opcion">SOBRE MI</Link>
+                            <a href="/" className="opcion">SOBRE MI</a>
                         </li>
                         <li>
-                            <Link to="/Skills" className="opcion">SKILLS</Link>
+                            <a href="/" className="opcion">SKILLS</a>
                         </li>
                         <li>
-                            <Link to="/Curriculum" className="opcion">CURRICULUM</Link>
+                            <a href="/" className="opcion">CURRICULUM</a>
                         </li>
                         <li>
-                            <Link to="/Portafolio" className="opcion">PORTAFOLIO</Link>
+                            <a href="/" className="opcion">PORTAFOLIO</a>
                         </li>
                         <li>
-                            <Link to="/Contacto" className="opcion">CONTACTO</Link>
+                            <a href="/" className="opcion">CONTACTO</a>
                         </li>
                     </ul>
                 </nav>

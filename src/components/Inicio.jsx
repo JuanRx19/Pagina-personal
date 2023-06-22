@@ -9,12 +9,11 @@ import { faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
 function Inicio(){
     return(
         <div className="inicio">
-            <Navbar/>
             <div className="contenido-banner">
                 <div className="contenedor-imagen">
                     <img className="img-cv" src={require("../images/yo.jpg")}></img>
                 </div>
-                <h1>Juan Rojas</h1>
+                <h1>JUAN ROJAS</h1>
                 <h2>Estudiante de Ingeniería de Sistemas</h2>
                 <h2>Developer UI/UX</h2>
                 <div className="redes">

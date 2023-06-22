@@ -1,10 +1,10 @@
 .contenedor-header{
-    background-color: #1e2326;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 99;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .cabecera{
@@ -17,7 +17,7 @@
 }
 
 .logo, .nombre{
-    font-family: 'Righteous';
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     color: #1CB698;
     text-decoration: none;
@@ -27,7 +27,7 @@
     display: flex;
 }
 
-ul{
+.lista-ul{
     display: flex;
     gap: 15px;
     list-style: none;

@@ -1,5 +1,139 @@
-.contenedor{
+.contenedor-sobremi{
     display: flex;
-    width: 100vh;
-    background-color: aqua;
+    flex-direction: column;
+    padding: 30px 20px;
+    background-color: #1e2326;
+    color: #fff;
+}
+
+.contenedor-sobremi h3{
+    font-family: 'Work Sans';
+}
+
+.contenedor-sobremi h2{
+    font-size: 48px;
+    font-family: 'Work Sans';
+    text-align: center;
+    padding: 10px 0;
+}
+
+.fila{
+    display: flex;
+}
+
+.datos-personales{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.datos-personales ul{
+    list-style: none;
+    padding-top: 5px;
+}
+
+.datos-personales ul li{
+    list-style: none;
+    margin: 15px 0;
+}
+
+.datos-personales ul li strong{
+    display: inline-block;
+    color:#1CB698;
+    width: 130px;
+}
+
+.datos-personales ul li span{
+    background-color:#1CB698;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.contenedor-intereses{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 25px;
+}
+
+.intereses{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.interes{
+    width: 100px;
+    height: 100px;
+    background-color: #373e44;
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    font-size: 20px;
+}
+
+.interes:hover{
+    background-color: #1CB698;
+}
+
+.contenedor-intereses h3{
+    margin: 12px 0;
+}
+
+.contenido-seccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenido-seccion p{
+    max-width: 1100px;
+    text-align: justify;
+    margin-bottom: 20px;
+    font: 18px;
+}
+
+.contenido-seccion p span{
+    color: #1CB698;
+    font-weight: bold;
+}
+
+
+.descargar-cv{
+    cursor: pointer;
+    text-decoration: none;
+    width: fit-content;
+    background-color: transparent;
+    border: none;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    background-color: #1CB698;
+}
+
+.descargar-cv .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: .1;
+    transition: 1s;
+}
+
+.descargar-cv:hover .overlay{
+    width: 100%;
 }
