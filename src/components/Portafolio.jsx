@@ -14,7 +14,7 @@ function Portafolio(){
                 </div>
                 <div className="card-portafolio">
                     <img className="img-portafolio" src={require("../images/p2.jpg")} alt="img-portafolio"/>
-                    <a href="https://github.com/JuanRx19" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /> </a>
+                    <a href="https://github.com/JuanRx19/Pagina-personal" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /> </a>
                 </div>
                 <div className="card-portafolio">
                     <img className="img-portafolio" src={require("../images/p3.jpg")} alt="img-portafolio"/>
@@ -22,7 +22,7 @@ function Portafolio(){
                 </div>
                 <div className="card-portafolio">
                     <img className="img-portafolio" src={require("../images/p4.jpg")} alt="img-portafolio"/>
-                    <a href="https://github.com/JuanRx19" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /> </a>
+                    <a href="https://github.com/JuanRx19/reto-frontend" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /> </a>
                 </div>
                 <div className="card-portafolio">
                     <img className="img-portafolio" src={require("../images/p5.jpg")} alt="img-portafolio"/>
