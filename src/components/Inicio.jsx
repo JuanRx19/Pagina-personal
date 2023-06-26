@@ -11,7 +11,7 @@ function Inicio(){
         <div className="inicio">
             <div className="contenido-banner">
                 <div className="contenedor-imagen">
-                    <img className="img-cv" src={require("../images/yo.jpg")}></img>
+                    <img className="img-cv" src={require("../images/yo.jpg")} alt="juan"></img>
                 </div>
                 <h1>JUAN ROJAS</h1>
                 <h2>Estudiante de Ingeniería de Sistemas</h2>

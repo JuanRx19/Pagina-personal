@@ -4,6 +4,7 @@ import Inicio from './components/Inicio';
 import SobreMi from './components/SobreMi';
 import Skills from './components/Skills';
 import Navbar from './components/Navbar';
+import Portafolio from './components/Portafolio';
 
 //import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -23,6 +24,7 @@ function App() {
         <Inicio />
         <SobreMi />
         <Skills/>
+        <Portafolio/>
       </div>
   );
 }

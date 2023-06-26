@@ -1,0 +1,48 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    background-color: #252b2e;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.skills h2{
+    font-size: 48px;
+    font-family: 'Work Sans';
+    text-align: center;
+    padding-top: 40px;
+}
+
+.contenido-seccion-skills{
+    display: flex;
+}
+
+.technical-skills{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding-left: 170px;
+}
+
+.professional-skills{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.contenido-seccion-skills h2{
+    display: flex;
+    justify-content: center;
+}
+
+.contenido-seccion-skills h3{
+    font-size: 30px;
+    font-family: 'Work Sans';
+    padding-top: 20px;
+}
+
+.contenido-seccion-skills h4{
+    font-family: 'Work Sans';
+    padding: 10px 0px;
+}

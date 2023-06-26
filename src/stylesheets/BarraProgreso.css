@@ -1,0 +1,26 @@
+.barra-progreso {
+    width: 80%;
+    height: 20px;
+    background-color: #1e2326;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .barra-progreso-indicador {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #1cb698;
+    transition: width 0.3s ease-in-out;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .barra-progreso-indicador-porcentaje {
+    color: #fff;
+    font-weight: bold;
+    background-color: #296156;
+    padding: 2px 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
