@@ -1,0 +1,116 @@
+.contacto{
+    background: linear-gradient(to top, #1e2326cc, rgba(30, 35, 38, 1)), url("../images/contacto-fondo.jpg");
+    display: flex;
+    flex-direction: column;
+    background-color: #1e2326;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    align-items: center;
+}
+
+.contacto h2{
+    font-size: 48px;
+    font-family: 'Work Sans';
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.contenido-seccion-contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 550px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.datos{
+    height: 30px;
+    width: 250px;
+}
+.mensaje{
+    height: 200px;
+    width: 530px;
+    resize: none;
+}
+
+.enviar{
+    cursor: pointer;
+    text-decoration: none;
+    width: fit-content;
+    background-color: transparent;
+    border: none;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 45px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    background-color: #1CB698;
+    border-radius: 50px;
+}
+
+.enviar .enviar-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: .1;
+    transition: 1.6s;
+    border-radius: 50px;
+}
+
+.enviar:hover .enviar-overlay{
+    width: 100%;
+    border-radius: 50px;
+}
+
+.volver-inicio{
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    width: fit-content;
+    background-color: transparent;
+    border: none;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    background-color: #1CB698;
+    border-radius: 100%;
+}
+
+.volver-inicio:hover{
+    padding: 10px 17px;
+    font-size: 18px;
+    transition: 0.1s;
+}
+
+.datos, .mensaje{
+    color: #fff;
+    padding: 18px;
+    font-family: 'Work Sans';
+    display: block;
+    border: none;
+    background-color: #252A2E;
+    outline: none;
+    font-size: 18px;
+}
+
+.datos:focus, .mensaje:focus {
+  outline-color: #147460;
+  outline-style: solid;
+  outline-width: 2px;
+  transition: 0.15s;
+}
+
+.datos:hover, .mensaje:hover{
+    background-color: #2c3135;
+}

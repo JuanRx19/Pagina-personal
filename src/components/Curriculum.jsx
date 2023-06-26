@@ -3,7 +3,7 @@ import "../stylesheets/Curriculum.css"
 
 function Curriculum(){
     return(
-        <div className="curriculum">
+        <div id="curriculum" className="curriculum">
             <h2>Curriculum</h2>
             <div className="contenido-seccion-curriculum">
                 <div className="contenedor-educacion">

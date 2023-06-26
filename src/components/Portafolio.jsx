@@ -5,7 +5,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Portafolio(){
     return(
-        <div className="portafolio">
+        <div id="portafolio" className="portafolio">
             <h2>PORTAFOLIO</h2>
             <div className="contenedores-portafolio">
                 <div className="card-portafolio">

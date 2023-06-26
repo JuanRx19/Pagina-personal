@@ -39,6 +39,11 @@
     transition: 0.3s;
 }
 
+.card-portafolio:hover .img-portafolio{
+    width: 380px;
+    transition: 0.5s;
+}
+
 .img-portafolio{
     width: 370px;
     padding-bottom: 10px;

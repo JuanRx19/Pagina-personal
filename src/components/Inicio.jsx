@@ -6,7 +6,7 @@ import { faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 function Inicio(){
     return(
-        <div className="inicio">
+        <div id="inicio" className="inicio">
             <div className="contenido-banner">
                 <div className="contenedor-imagen">
                     <img className="img-cv" src={require("../images/yo.jpg")} alt="juan"></img>

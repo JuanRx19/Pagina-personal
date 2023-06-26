@@ -1,7 +1,7 @@
 .curriculum{
     display: flex;
     flex-direction: column;
-    background-color: #1e2326;
+    background: #1e2326;
     color: #fff;
     padding-bottom: 30px;
 }

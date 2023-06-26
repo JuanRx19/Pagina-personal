@@ -6,6 +6,7 @@ import SobreMi from './components/SobreMi';
 import Skills from './components/Skills';
 import Curriculum from './components/Curriculum';
 import Portafolio from './components/Portafolio';
+import Contacto from './components/Contacto';
 
 //import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -27,6 +28,7 @@ function App() {
         <Skills/>
         <Curriculum/>
         <Portafolio/>
+        <Contacto/>
       </div>
   );
 }

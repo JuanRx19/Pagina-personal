@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
 import "../stylesheets/SobreMi.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faGamepad, faHeadphonesSimple, faDumbbell, faMotorcycle, faDesktop } from '@fortawesome/free-solid-svg-icons';
@@ -16,7 +15,7 @@ function SobreMi(){
       };
 
     return(
-        <div className="contenedor-sobremi">
+        <div id="sobre-mi" className="contenedor-sobremi">
             <div className="contenido-seccion">
                 <h2>Sobre Mí</h2>
                 <p><span>Hola, soy Juan Miguel Rojas. </span>Actualmente soy estudiante de Ingenieria de Sistemas y Computacion. Me apasiona el
