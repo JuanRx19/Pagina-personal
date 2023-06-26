@@ -17,9 +17,6 @@ function Curriculum(){
                             desarrollar habilidades técnicas y competencias profesionales para destacar en el campo de la tecnología.
                             Preparado para enfrentar desafíos y contribuir al avance de la industria.</p>
                     </div>
-                    <div className="conector-educacion"  style={{ top: `334%`}}/>
-                    <div className="circulo-educacion" style={{ top: `333.5%`}}/>
-
                     <div className="card-educacion">
                         <h4>Bachiller Tecnigo en Sistemas</h4>
                         <h5>Colegio León de Greiff</h5>
@@ -27,8 +24,6 @@ function Curriculum(){
                         <p>Bachiller Técnico en Sistemas graduado del Colegio León de Greiff, con enfoque en el área de tecnología e informática. 
                             Adquirí conocimientos fundamentales en sistemas, programación y soluciones tecnológicas. 
                             Listo para aplicar mis habilidades en proyectos desafiantes y seguir creciendo en el campo de la tecnología.</p>
-                        <div className="conector-educacion"  style={{ top: `384%`}}/>
-                        <div className="circulo-educacion" style={{ top: `383.3%`}}/>
                 </div>
                     
                 </div>
@@ -42,8 +37,6 @@ function Curriculum(){
                             técnicas y competencias profesionales para destacar en el campo tecnológico. Listo para enfrentar proyectos 
                             desafiantes y aportar valor como profesional independiente. Como desarrollador tengo una gran iniciativa para
                             generar conocimientos y lograr adecuarme a cualquier reto.</p>
-                        <div className="conector-experiencia"  style={{ top: `334%`}}/>
-                        <div className="circulo-experiencia" style={{ top: `333.5%`}}/>
                     </div>
                     
                 </div>
