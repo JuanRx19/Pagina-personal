@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar';
 import Inicio from './components/Inicio';
 import SobreMi from './components/SobreMi';
 import Skills from './components/Skills';
-import Navbar from './components/Navbar';
+import Curriculum from './components/Curriculum';
 import Portafolio from './components/Portafolio';
 
 //import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -24,6 +25,7 @@ function App() {
         <Inicio />
         <SobreMi />
         <Skills/>
+        <Curriculum/>
         <Portafolio/>
       </div>
   );

@@ -1,0 +1,116 @@
+.curriculum{
+    display: flex;
+    flex-direction: column;
+    background-color: #1e2326;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.curriculum h2{
+    font-size: 48px;
+    font-family: 'Work Sans';
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.contenido-seccion-curriculum{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido-seccion-curriculum h3{
+    font-size: 30px;
+    font-family: 'Work Sans';
+    text-align: center;
+}
+
+.contenedor-educacion{
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    border-right: 1px solid rgb(68, 67, 67);
+    padding-right: 30px;
+    margin-left: 100px;
+    gap: 30px;
+}
+
+.contenedor-experiencia{
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    border-left: 1px solid rgb(68, 67, 67);
+    padding-left: 30px;
+    margin-right: 100px;
+    gap: 30px;
+}
+
+.card-educacion{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #252b2e;
+    border-right: 2px solid #1CB698;
+}
+
+.contenido-seccion-curriculum h5{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1CB698;
+}
+
+.fecha{
+    color: #1CB698;
+    padding-bottom: 5px;
+}
+
+.contenido-seccion-curriculum h4 h5{
+    font-family: 'Work Sans';
+}
+
+.card-experiencia{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #252b2e;
+    border-left: 2px solid #1CB698;
+}
+
+p{
+    line-height: 24px;
+}
+
+.conector-educacion{
+    background-color: #1CB698;
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    left: 631px;
+}
+
+.circulo-educacion{
+    background-color: #1CB698;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: 658px;
+}
+
+.conector-experiencia{
+    background-color: #1CB698;
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    left: 682px;
+}
+
+.circulo-experiencia{
+    background-color: #1CB698;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: 675px;
+}
