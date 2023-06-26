@@ -8,5 +8,23 @@
 }
 
 html, body{
-  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #1cb698 transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* Ajusta el ancho de la barra de desplazamiento según tus preferencias */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #181a1b;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1cb698; /* Color personalizado para la barra de desplazamiento */
+  border-radius: 4px; /* Ajusta el radio del borde según tus preferencias */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #19a385; /* Color personalizado para la barra de desplazamiento al pasar el cursor sobre ella */
 }
