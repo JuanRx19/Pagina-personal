@@ -1,13 +1,29 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../stylesheets/Inicio.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 function Inicio(){
+    const [isMobile, setIsMobile] = useState(false);
+  
+    const handleResize = () => {
+      if (window.innerWidth <= 1082) {
+        setIsMobile(true);
+      } else {
+        setIsMobile(false);
+      }
+    };
+  
+    useEffect(() => {
+      window.addEventListener("resize", handleResize);
+      handleResize();
+      return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     return(
         <div id="inicio" className="inicio">
-            <div className="contenido-banner">
+            <div className={`contenido-banner ${isMobile ? "mobile" : ""}`}>
                 <div className="contenedor-imagen">
                     <img className="img-cv" src={require("../images/yo.jpg")} alt="juan"></img>
                 </div>

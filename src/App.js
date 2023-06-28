@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Curriculum from './components/Curriculum';
 import Portafolio from './components/Portafolio';
 import Contacto from './components/Contacto';
+import Footer from './components/Footer';
 
 //import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -29,6 +30,7 @@ function App() {
         <Curriculum/>
         <Portafolio/>
         <Contacto/>
+        <Footer/>
       </div>
   );
 }

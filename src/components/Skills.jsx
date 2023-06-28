@@ -1,12 +1,29 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import BarraProgreso from "./mini-components/BarraProgreso.jsx"
 import "../stylesheets/Skills.css"
 
 function Skills(){
+
+    const [isMobile, setIsMobile] = useState(false);
+  
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setIsMobile(true);
+      } else {
+        setIsMobile(false);
+      }
+    };
+  
+    useEffect(() => {
+      window.addEventListener("resize", handleResize);
+      handleResize();
+      return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     return(
         <div id="skills" className="skills">
             <h2>Skills</h2>
-            <div className="contenido-seccion-skills">
+            <div className={`contenido-seccion-skills ${isMobile ? "mobile" : ""}`}>
                 <div className="technical-skills">
                     <h3>Technical Skills</h3>
                     <div className="JavaScript">

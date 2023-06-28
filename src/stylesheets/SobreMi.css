@@ -137,3 +137,72 @@
 .descargar-cv:hover .overlay{
     width: 100%;
 }
+
+@media screen and (max-width: 1082px) {
+    .fila.mobile .datos-personales{
+        display: flex;
+        padding-left: 80px;
+    }
+
+    .fila.mobile .interes{
+        margin-right: 30px;
+    }
+
+    .contenido-seccion.mobile p{
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fila.mobile .datos-personales{
+        display: flex;
+        padding-left: 80px;
+    }
+
+    .contenido-seccion.mobile p{
+        max-width: 700px;
+    }
+    
+    .fila.mobile .datos-personales{
+        padding-left: 40px;
+    }
+
+    .fila.mobile .interes{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .fila.mobile .datos-personales{
+        display: flex;
+        padding-left: 80px;
+    }
+
+    .contenido-seccion.mobile p{
+        max-width: 700px;
+    }
+
+    .fila.mobile .interes{
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .fila.mobile .datos-personales{
+        display: flex;
+        padding-left: 10px;
+    }
+
+    .contenido-seccion.mobile p{
+        max-width: 700px;
+    }
+
+    .fila.mobile .interes{
+        margin-right: 10px;
+    }
+
+    .fila.mobile .datos-personales ul li strong{
+        width: 100px;
+    }
+}

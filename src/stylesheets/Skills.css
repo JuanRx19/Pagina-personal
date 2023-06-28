@@ -46,3 +46,25 @@
     font-family: 'Work Sans';
     padding: 10px 0px;
 }
+
+@media screen and (max-width: 768px) {
+    .contenido-seccion-skills.mobile .technical-skills{
+        padding-left: 70px;
+    }
+    
+    .contenido-seccion-skills.mobile .professional-skills{
+        padding-left: 70px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .contenido-seccion-skills.mobile .technical-skills{
+        padding-left: 20px;
+    }
+
+    .contenido-seccion-skills.mobile .professional-skills{
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+}

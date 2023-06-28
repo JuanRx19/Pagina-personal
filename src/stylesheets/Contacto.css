@@ -71,28 +71,6 @@
     border-radius: 50px;
 }
 
-.volver-inicio{
-    padding: 10px 15px;
-    cursor: pointer;
-    text-decoration: none;
-    width: fit-content;
-    background-color: transparent;
-    border: none;
-    display: block;
-    font-size: 16px;
-    color: #fff;
-    position: relative;
-    z-index: 10;
-    background-color: #1CB698;
-    border-radius: 100%;
-}
-
-.volver-inicio:hover{
-    padding: 10px 17px;
-    font-size: 18px;
-    transition: 0.1s;
-}
-
 .datos, .mensaje{
     color: #fff;
     padding: 18px;

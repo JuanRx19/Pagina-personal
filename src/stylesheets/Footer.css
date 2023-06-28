@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #252b2e;
+    color: #fff;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans';
+}
+
+.volver-inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: #1CB698;
+    border-radius: 100%;
+    transform: translateY(-80%);
+    position: absolute;
+}
+
+.volver-inicio:hover{
+    width: 48px;
+    height: 48px;
+    transition: 0.15s;
+}
+
+.footer p{
+    padding-top: 40px;
+}
+
+.footer span{
+    color: #1CB698;
+}

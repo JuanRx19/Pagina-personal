@@ -1,10 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../stylesheets/SobreMi.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faGamepad, faHeadphonesSimple, faDumbbell, faMotorcycle, faDesktop } from '@fortawesome/free-solid-svg-icons';
 import { faLinux } from '@fortawesome/free-brands-svg-icons';
 
 function SobreMi(){
+    const [isMobile, setIsMobile] = useState(false);
+  
+    const handleResize = () => {
+      if (window.innerWidth <= 1082) {
+        setIsMobile(true);
+      } else {
+        setIsMobile(false);
+      }
+    };
+  
+    useEffect(() => {
+      window.addEventListener("resize", handleResize);
+      handleResize();
+      return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     const handleDownload = () => {
         const link = document.createElement('a');
         link.href = '/CV.pdf';
@@ -16,13 +32,13 @@ function SobreMi(){
 
     return(
         <div id="sobre-mi" className="contenedor-sobremi">
-            <div className="contenido-seccion">
+            <div className={`contenido-seccion ${isMobile ? "mobile" : ""}`}>
                 <h2>Sobre Mí</h2>
                 <p><span>Hola, soy Juan Miguel Rojas. </span>Actualmente soy estudiante de Ingenieria de Sistemas y Computacion. Me apasiona el
                 desarrollo web y disfruto del mismo. Soy una persona innovadora y me gusta generar ideas para cualquier tipo  de ambiente
                 al cual pueda brindarle mis capacidades.</p>
             </div>
-            <div className="fila">
+            <div className={`fila ${isMobile ? "mobile" : ""}`}>
                 <div className="datos-personales">
                     <h3>Datos personales</h3>
                     <ul>

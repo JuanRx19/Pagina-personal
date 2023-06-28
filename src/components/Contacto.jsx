@@ -1,7 +1,5 @@
 import React from "react";
 import "../stylesheets/Contacto.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAnglesUp } from '@fortawesome/free-solid-svg-icons';
 
 function Contacto(){
     return(
@@ -16,9 +14,6 @@ function Contacto(){
                 Enviar
                 <span className="enviar-overlay"></span>
             </button>
-            <a href="#inicio" className="volver-inicio">
-                <FontAwesomeIcon icon={faAnglesUp} />
-            </a>
         </div>
     );
 }
