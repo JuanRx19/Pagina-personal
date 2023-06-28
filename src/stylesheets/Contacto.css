@@ -92,3 +92,43 @@
 .datos:hover, .mensaje:hover{
     background-color: #2c3135;
 }
+
+@media screen and (max-width: 550px) {
+
+    .contenido-seccion-contacto{
+        max-width: 330px;
+    }
+    
+    .contenido-seccion-contacto.mobile .datos{
+        height: 30px;
+        width: 150px;
+        font-size: 10px;
+    }
+    .contenido-seccion-contacto.mobile .mensaje{
+        height: 200px;
+        width: 330px;
+        font-size: 10px;
+        resize: none;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .contacto{
+        display: n;
+    }
+    .contenido-seccion-contacto{
+        max-width: 280px;
+    }
+    
+    .contenido-seccion-contacto.mobile .datos{
+        height: 30px;
+        width: 110px;
+        font-size: 10px;
+    }
+    .contenido-seccion-contacto.mobile .mensaje{
+        height: 200px;
+        width: 250px;
+        font-size: 10px;
+        resize: none;
+    }
+}

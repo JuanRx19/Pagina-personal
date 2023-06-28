@@ -24,3 +24,10 @@
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
+
+  @media screen and (max-width: 550px) {
+    .barra-progreso-indicador-porcentaje {
+      font-size: 11px;
+      padding: 5px 4px;
+    }
+}

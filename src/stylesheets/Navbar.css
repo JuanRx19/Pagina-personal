@@ -89,3 +89,19 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 450px) {
+
+    .navbar.mobile .lista-ul {
+        padding-right: 40px;
+        gap: 5px;
+    }
+
+    .navbar.mobile .lista-ul a{
+        font-size: 13px;
+    }
+
+    .cabecera{
+        padding: 15px 40px;
+    }
+}

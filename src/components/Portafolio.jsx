@@ -26,7 +26,7 @@ function Portafolio(){
                 </div>
                 <div className="card-portafolio">
                     <img className="img-portafolio" src={require("../images/p5.jpg")} alt="img-portafolio"/>
-                    <a href="https://github.com/JuanRx19" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /> </a>
+                    <a href="https://github.com/JuanRx19/calculadora" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /> </a>
                 </div>
                 <div className="card-portafolio">
                     <img className="img-portafolio" src={require("../images/p6.jpg")} alt="img-portafolio"/>

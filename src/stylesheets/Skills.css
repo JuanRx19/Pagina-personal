@@ -29,6 +29,7 @@
     width: 50%;
     flex-direction: column;
     padding-left: 100px;
+    padding-right: 70px;
 }
 
 .contenido-seccion-skills h2{
@@ -64,7 +65,10 @@
     }
 
     .contenido-seccion-skills.mobile .professional-skills{
-        padding-left: 0px;
-        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .contenido-seccion-skills.mobile h3{
+        font-size: 24px;
     }
 }

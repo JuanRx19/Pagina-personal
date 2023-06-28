@@ -1,11 +1,28 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../stylesheets/Curriculum.css"
 
 function Curriculum(){
+
+    const [isMobile, setIsMobile] = useState(false);
+  
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setIsMobile(true);
+      } else {
+        setIsMobile(false);
+      }
+    };
+
+    useEffect(() => {
+        window.addEventListener("resize", handleResize);
+        handleResize();
+        return () => window.removeEventListener("resize", handleResize);
+      }, []);
+      
     return(
         <div id="curriculum" className="curriculum">
             <h2>Curriculum</h2>
-            <div className="contenido-seccion-curriculum">
+            <div className={`contenido-seccion-curriculum ${isMobile ? "mobile" : ""}`}>
                 <div className="contenedor-educacion">
                     <h3>Educación</h3>
                     <div className="card-educacion">
