@@ -29,7 +29,7 @@ function Inicio(){
                 </div>
                 <h1>JUAN ROJAS</h1>
                 <h2>Estudiante de Ingeniería de Sistemas</h2>
-                <h2>Developer UI/UX</h2>
+                <h2>Desarrollador Web</h2>
                 <div className="redes">
                     <a href="https://github.com/JuanRx19" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /> </a>
                     <a href="https://www.linkedin.com/in/juan-miguel-rojas-mejia-35968a1a2/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedinIn} /> </a>
